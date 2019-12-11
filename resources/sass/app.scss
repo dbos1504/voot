@@ -1204,7 +1204,6 @@ li.active .page-link {
     flex-direction: column-reverse;
     display: flex;
   }
-
   .google-mapa {
     margin-top: 80px;
   }
@@ -1262,6 +1261,9 @@ li.active .page-link {
   }
   .related-prod .category-image {
     margin: auto;
+  }
+  .subcategory {
+    width: 100%;
   }
 }
 

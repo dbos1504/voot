@@ -150,6 +150,19 @@
                                              </p>
                                              <hr class="my-2">
                                        @endif
+                                       @if ($product->total_length)
+                                             <p class="flex justify-between">
+                                                 <span class="uppercase tracking-widest font-thin">Heildarlengd: </span>
+                                                 <span class="uppercase tracking-widest font-thin">{{ $product->total_length }}</span>
+                                             </p><hr class="my-2">
+                                       @endif
+                                       @if ($product->pykkt)
+                                             <p class="flex justify-between">
+                                                 <span class="uppercase tracking-widest font-thin">Þykkt: </span>
+                                                 <span class="uppercase tracking-widest font-thin">{{ $product->pykkt }}</span>
+                                             </p>
+                                             <hr class="my-2">
+                                       @endif
                                        @if ($product->litur)
                                             <p class="flex justify-between">
                                                 <span class="uppercase tracking-widest font-thin">LITIR Í BOÐI: </span>

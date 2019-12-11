@@ -23161,6 +23161,10 @@ li.active .page-link {
   .related-prod .category-image {
     margin: auto;
   }
+
+  .subcategory {
+    width: 100%;
+  }
 }
 
 @media (max-width: 416px) {
